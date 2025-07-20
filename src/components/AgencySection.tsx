@@ -1,4 +1,3 @@
-import React from "react";
 import { BarChart2, Brush, Monitor } from "lucide-react";
 import { assets } from "../assets/assets";
 import { motion } from "framer-motion";

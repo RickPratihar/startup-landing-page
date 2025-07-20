@@ -1,5 +1,5 @@
 import { Mail, MessageSquareText, MapPin, Phone } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import DottedMap from "dotted-map";
 
 export default function ContactMapSection() {

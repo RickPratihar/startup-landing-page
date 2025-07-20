@@ -1,10 +1,11 @@
-import React from "react";
-import { motion } from "framer-motion";
+
+import { motion, type Variants } from "framer-motion";
 import CountUp from "react-countup";
 import { User, GraduationCap, Bell } from "lucide-react";
 import { assets } from "../assets/assets";
 
-const fadeUp = {
+
+const fadeUp:Variants  = {
   hidden: { opacity: 0, y: 40 },
   visible: (i) => ({
     opacity: 1,
